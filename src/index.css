@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Lexend";
+  src: url("../fonts/Lexend-Regular.ttf");
+}
+
+* {
+  font-family: "Lexend";
+}
