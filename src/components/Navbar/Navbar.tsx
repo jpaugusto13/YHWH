@@ -9,7 +9,9 @@ const NavBar = () => (
 
     <div>
       <ul className="flex gap-8">
-        <li>Lançamentos</li>
+        <li>
+          <Link to={"lancamentos"}>Lançamentos</Link>
+        </li>
         <li>Camisetas</li>
         <li>Babylooks</li>
         <li>Blusas</li>
