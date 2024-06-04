@@ -8,10 +8,11 @@ import { BsBoxSeam } from "react-icons/bs";
 import { MdOutlineShoppingCartCheckout } from "react-icons/md";
 
 const Home = () => (
-  <div>
+  <div className="w-[100vw]">
     <NavBar />
     <Outlet />
-    <div className="flex w-full px-12 gap-8 justify-around">
+
+    <div className="grid w-full max-xl:grid-cols-1 grid-cols-4 gap-8 justify-around items-center place-items-center">
       <Card
         icon={<FaInstagram size={36} />}
         title="Siga-nos no Instagram"
