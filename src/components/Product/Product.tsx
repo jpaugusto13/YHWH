@@ -6,15 +6,19 @@ interface ProductProps {
 
 export default function Product({ name, price, image }: ProductProps) {
   return (
-    <div className="w-[350px] shadow-md rounded-lg p-4 cursor-pointer hover:bg-gray-100 duration-300">
-      <img
-        className="rounded-xl h-[350px] w-[350px] object-cover"
-        src={image}
-      />
-      <div className="flex flex-col w-[100%] p-2">
-        <p>{name}</p>
+    <div className="flex flex-col w-[300px] h-[420px] rounded-2xl p-4 cursor-pointer bg-white duration-300">
+      <div className="flex p-2 w-full h-full">
+        <img className="rounded-lg h-[300px] w-full object-cover" src={image} />
+      </div>
+
+      <div className="flex flex-col gap-y-4 w-[100%] p-2">
         <div>
-          <p className="text-lg">R$ {price.toFixed(2).replace(".", ",")}</p>
+          <p>{name}</p>
+        </div>
+        <div>
+          <p className="text-xl text text-[#00D864]">
+            R$ {price.toFixed(2).replace(".", ",")}
+          </p>
         </div>
       </div>
     </div>

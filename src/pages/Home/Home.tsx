@@ -8,7 +8,7 @@ import { BsBoxSeam } from "react-icons/bs";
 import { MdOutlineShoppingCartCheckout } from "react-icons/md";
 
 const Home = () => (
-  <div className="w-[100vw]">
+  <div className="w-[99vw] bg-[#F7F7F7]">
     <NavBar />
     <Outlet />
 

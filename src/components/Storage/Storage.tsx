@@ -5,27 +5,19 @@ import "react-alice-carousel/lib/alice-carousel.css";
 export default function Storage() {
   return (
     <div className="w-full flex flex-col justify-center">
-      <div className="w-full flex items-center p-10">
-        <div className="w-full">
+      <div className="w-full flex items-center py-10 px-16">
+        <div className="w-full h-[450px] overflow-hidden bg-black shadow-sm rounded-xl">
           <AliceCarousel
+            disableButtonsControls
             mouseTracking
             infinite
             disableDotsControls
             autoPlay
-            animationDuration={2000}
+            animationDuration={4000}
           >
-            <Link href="#">
-              <img width={400} height={400} src="image1.jpg" />
-            </Link>
-            <Link href="#">
-              <img width={400} height={400} src="image2.jpg" />
-            </Link>
-            <Link href="#">
-              <img width={400} height={400} src="image3.jpg" />
-            </Link>
-            <Link href="#">
-              <img width={400} height={400} src="image4.jpeg" />
-            </Link>
+            <img className="h-full w-full object-cover" src="image1.webp" />
+            <img className="h-full w-full object-cover" src="image2.webp" />
+            <img className="h-full w-full object-cover" src="image3.webp" />
           </AliceCarousel>
         </div>
       </div>
