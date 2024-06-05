@@ -20,20 +20,38 @@ const NavBar = () => (
 
       <div>
         <p className="text-sm w-36">
-          Faça seu <Link className="text-yellow-500 underline">LOGIN</Link> ou
-          crie seu <Link className="text-yellow-500 underline">CADASTRO</Link>
+          Faça seu{" "}
+          <Link to="#" className="text-yellow-500 underline">
+            LOGIN
+          </Link>{" "}
+          ou crie seu{" "}
+          <Link to="#" className="text-yellow-500 underline">
+            CADASTRO
+          </Link>
         </p>
       </div>
       <div>
         <p className="text-sm w-36">
-          Faça seu <Link className="text-yellow-500 underline">LOGIN</Link> ou
-          crie seu <Link className="text-yellow-500 underline">CADASTRO</Link>
+          Faça seu{" "}
+          <Link to="#" className="text-yellow-500 underline">
+            LOGIN
+          </Link>{" "}
+          ou crie seu{" "}
+          <Link to="#" className="text-yellow-500 underline">
+            CADASTRO
+          </Link>
         </p>
       </div>
       <div>
         <p className="text-sm w-36">
-          Faça seu <Link className="text-yellow-500 underline">LOGIN</Link> ou
-          crie seu <Link className="text-yellow-500 underline">CADASTRO</Link>
+          Faça seu{" "}
+          <Link to="#" className="text-yellow-500 underline">
+            LOGIN
+          </Link>{" "}
+          ou crie seu{" "}
+          <Link to="#" className="text-yellow-500 underline">
+            CADASTRO
+          </Link>
         </p>
       </div>
     </div>
