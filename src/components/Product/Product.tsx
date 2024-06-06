@@ -6,9 +6,12 @@ interface ProductProps {
 
 export default function Product({ name, price, image }: ProductProps) {
   return (
-    <div className="flex flex-col w-[300px] h-[420px] rounded-2xl p-4 cursor-pointer bg-white duration-300">
-      <div className="flex p-2 w-full h-full">
-        <img className="rounded-lg h-[300px] w-full object-cover" src={image} />
+    <div className="flex flex-col w-[260px] h-[400px] rounded-2xl p-4 cursor-pointer shadow-md bg-white duration-300 hover:scale-110 hover:bg-slate-100">
+      <div className="flex w-full h-full">
+        <img
+          className="rounded-lg h-[250px] w-[250px] object-cover"
+          src={image}
+        />
       </div>
 
       <div className="flex flex-col gap-y-4 w-[100%] p-2">

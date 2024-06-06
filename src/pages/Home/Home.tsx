@@ -12,7 +12,7 @@ const Home = () => (
     <NavBar />
     <Outlet />
 
-    <div className="grid w-full max-xl:grid-cols-1 grid-cols-4 gap-8 justify-around items-center place-items-center">
+    <div className="grid shadow-md bg-white p-10 w-full max-xl:grid-cols-1 grid-cols-4 gap-2 place-items-center">
       <Card
         icon={<FaInstagram size={36} />}
         title="Siga-nos no Instagram"
@@ -34,6 +34,17 @@ const Home = () => (
         paragraph="7 dias para Trocas e Devoluções da data de recebimento"
       />
     </div>
+    <footer className="w-full p-1 text-white bg-[#202020] shadow-md shadow-slate-400">
+      <div className="w-full justify-center flex">
+        <p className="w-2/3 text-center text-xs">
+          Preços e condições de pagamento exclusivas para compras neste site
+          oficial. Evite comprar produtos mais baratos ou de outras lojas, pois
+          você pode estar sendo enganado(a) por um golpista. Caso você compre os
+          mesmos produtos em outras lojas,{" "}
+          <b>não nos responsabilizamos por quaisquer problemas.</b>
+        </p>
+      </div>
+    </footer>
   </div>
 );
 
